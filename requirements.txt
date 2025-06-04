@@ -1,0 +1,27 @@
+# Core Packages
+requests                  # For HTTP requests
+beautifulsoup4            # For web scraping (if needed)
+lxml                      # HTML/XML parsing
+
+# PDF Processing
+PyMuPDF                   # For PDF text extraction
+ 
+
+# Notifications
+smtplib                   # For sending emails (built-in, no need to install)
+
+# Database
+sqlite3                   # For database handling (built-in, no need to install)
+
+# Logging
+loguru                    # For better logging (optional)
+ 
+# Utility
+python-dotenv             # For environment variables
+schedule                  # For scheduling tasks
+regex                     # For advanced string operations
+
+# Development
+flake8                    # Linting
+black                     # Code formatting
+pylint                    # Static code analysis
