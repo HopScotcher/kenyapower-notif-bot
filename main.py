@@ -1,6 +1,7 @@
 import os
 from src.scrapers.pdf_downloader import download_pdfs
 from src.processors.pdf_parser import parse_pdf
+
 # from src.notifications.email_sender import send_email
 # from src.database.db_manager import setup_database, add_user, get_users
 from src.utils.logger import logger
@@ -14,7 +15,7 @@ def main():
 
     # Download PDFs from Kenya Power website
     pdf_files = download_pdfs()
-    location = "Redcross"
+    location = "kahawa sukari"
 
     # Parse PDFs and check for relevant locations
     for pdf_file in pdf_files:
