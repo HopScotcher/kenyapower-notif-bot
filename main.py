@@ -14,7 +14,7 @@ def main():
 
     # Download PDFs from Kenya Power website
     pdf_files = download_pdfs()
-    location = "Nairobi"
+    location = "Redcross"
 
     # Parse PDFs and check for relevant locations
     for pdf_file in pdf_files:
