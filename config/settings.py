@@ -8,12 +8,19 @@ DB_PATH = "data/database.sqlite"
 # Kenya Power Website
 KENYA_POWER_URL = "https://kenyapower.co.ke/outages"
 
-# Notification Settings
-EMAIL_HOST = os.getenv("EMAIL_HOST", "smtp.example.com")
-EMAIL_PORT = int(os.getenv("EMAIL_PORT", 587))
-EMAIL_USERNAME = os.getenv("EMAIL_USERNAME", "user@example.com")
-EMAIL_PASSWORD = os.getenv("EMAIL_PASSWORD", "securepassword")
-FROM_EMAIL = os.getenv("FROM_EMAIL", "noreply@example.com")
-
 # Environment
 ENVIRONMENT = os.getenv("ENVIRONMENT", "development")
+
+
+# Your email credentials and SMTP server details.
+# IMPORTANT: For Gmail, you MUST use an "App Password", not your regular password.
+# See instructions here: https://support.google.com/accounts/answer/185833
+
+# Sender's email details
+EMAIL_SENDER_ADDRESS = "info.advendigital@gmail.com"  # Your full email address
+EMAIL_SENDER_PASSWORD = "iawzwltteicnsomk "  # Your 16-digit App Password
+
+# SMTP Server configuration (using Gmail as an example)
+SMTP_SERVER = "smtp.gmail.com"
+SMTP_PORT = 587  # For TLS
+

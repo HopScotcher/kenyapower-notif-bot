@@ -5,6 +5,7 @@ lxml                      # HTML/XML parsing
 
 # PDF Processing
 PyMuPDF                   # For PDF text extraction
+pdfplumber
  
 
 # Notifications
